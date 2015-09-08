@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XCAsyncTestCase"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Asynchronous capable XCTestCase"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                    }
   s.author       = { "PremoSystems" => "info@premosystems.com" }
   
-  s.source       = { :git => "https://github.com/premosystems/XCAsyncTestCase.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/gcstudent/XCAsyncTestCase.git", :tag => s.version.to_s }
 
   s.source_files = 'AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.{h,m}'
 
